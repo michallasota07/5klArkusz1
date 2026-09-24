@@ -1,0 +1,46 @@
+*{
+    font-family:comic sans ms sans-serif;
+
+}
+header, main{
+    text-align: center;
+}
+header,aside{
+    background-color: paleturquoise;
+    border-radius: 20px;
+}
+header{
+    height:100px;
+    padding:2%;
+}
+aside{
+    width:25%;
+    height:700px;
+    line-height: 2;
+    margin-left:5%  ;
+}
+footer{
+    padding-top:10px;
+}
+    #mainowka{
+    border: dashed 1px dimgray;
+    margin: 10px 50px 10px;
+    height:400px;
+    overflow-y: auto;
+ }
+.miniatury{
+    height:200px;
+    padding:10px;
+    opacity: 0.8;
+}
+.miniatury:hover{
+    opacity:1;
+}
+#glowna{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+article{
+    display: flex;
+}
